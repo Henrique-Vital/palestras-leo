@@ -1,0 +1,14 @@
+<svg width="852" height="852" viewBox="0 0 852 852" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="426" cy="426" r="426" fill="url(#paint0_radial_sun_light)" fill-opacity="0.9"/>
+<defs>
+<radialGradient id="paint0_radial_sun_light" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(426 426) rotate(90) scale(426)">
+<stop offset="0%" stop-color="#FFFFFF" stop-opacity="1"/>
+<stop offset="15%" stop-color="#FFF4E6" stop-opacity="0.95"/>
+<stop offset="30%" stop-color="#FFE066" stop-opacity="0.8"/>
+<stop offset="50%" stop-color="#FF9500" stop-opacity="0.6"/>
+<stop offset="70%" stop-color="#FF6B35" stop-opacity="0.4"/>
+<stop offset="85%" stop-color="#FF4500" stop-opacity="0.2"/>
+<stop offset="100%" stop-color="#FF6B35" stop-opacity="0"/>
+</radialGradient>
+</defs>
+</svg>

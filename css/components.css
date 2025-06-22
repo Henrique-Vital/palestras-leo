@@ -1,0 +1,249 @@
+/* Componentes específicos do site */
+
+/* Imagens com tamanhos responsivos */
+.sunset-img {
+  width: 120px;
+  height: 120px;
+}
+
+.sunset-img-sm {
+  width: 100px;
+  height: 100px;
+}
+
+.sunset-img-md {
+  width: 110px;
+  height: 110px;
+}
+
+.sun-effect {
+  width: 200px;
+  height: 200px;
+}
+
+.sun-effect-md {
+  width: 180px;
+  height: 180px;
+}
+
+.sun-effect-lg {
+  width: 200px;
+  height: 200px;
+}
+
+.tabuleiro-img {
+  max-width: 250px;
+}
+
+.leo-img {
+  max-width: 280px;
+}
+
+.grafico-img {
+  max-width: 250px;
+}
+
+.lampada-img {
+  max-width: 250px;
+}
+
+.trofeu-img {
+  max-width: 220px;
+}
+
+.logo-img {
+  height: 40px;
+  width: auto;
+}
+
+/* Efeitos hover para componentes */
+.hover-scale:hover {
+  transform: scale(1.05);
+}
+
+.hover-scale-lg:hover {
+  transform: scale(1.1);
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 1rem 2rem rgba(215, 181, 109, 0.2);
+}
+
+.hover-shadow-xl:hover {
+  box-shadow: 0 1rem 3rem rgba(43, 42, 41, 0.5);
+}
+
+.hover-bg-gold:hover {
+  background-color: #D7B56D;
+  color: #2B2A29;
+}
+
+/* Classes de opacidade */
+.opacity-35 {
+  opacity: 0.35;
+}
+
+.opacity-40 {
+  opacity: 0.4;
+}
+
+.opacity-45 {
+  opacity: 0.45;
+}
+
+.opacity-70 {
+  opacity: 0.7;
+}
+
+.opacity-80 {
+  opacity: 0.8;
+}
+
+.opacity-90 {
+  opacity: 0.9;
+}
+
+/* Media queries para componentes responsivos */
+@media (min-width: 576px) {
+  .sunset-img {
+    width: 180px;
+    height: 180px;
+  }
+  
+  .sunset-img-sm {
+    width: 150px;
+    height: 150px;
+  }
+  
+  .sunset-img-md {
+    width: 160px;
+    height: 160px;
+  }
+  
+  .sun-effect {
+    width: 300px;
+    height: 300px;
+  }
+  
+  .sun-effect-md {
+    width: 250px;
+    height: 250px;
+  }
+  
+  .sun-effect-lg {
+    width: 280px;
+    height: 280px;
+  }
+  
+  .tabuleiro-img {
+    max-width: 320px;
+  }
+  
+  .leo-img {
+    max-width: 320px;
+  }
+  
+  .logo-img {
+    height: 48px;
+  }
+}
+
+@media (min-width: 768px) {
+  .sunset-img {
+    width: 250px;
+    height: 250px;
+  }
+  
+  .sunset-img-sm {
+    width: 200px;
+    height: 200px;
+  }
+  
+  .sunset-img-md {
+    width: 220px;
+    height: 220px;
+  }
+  
+  .sun-effect {
+    width: 450px;
+    height: 450px;
+  }
+  
+  .sun-effect-md {
+    width: 400px;
+    height: 400px;
+  }
+  
+  .sun-effect-lg {
+    width: 420px;
+    height: 420px;
+  }
+  
+  .grafico-img {
+    max-width: 350px;
+  }
+  
+  .lampada-img {
+    max-width: 350px;
+  }
+  
+  .trofeu-img {
+    max-width: 300px;
+  }
+  
+  .logo-img {
+    height: 56px;
+  }
+}
+
+@media (min-width: 992px) {
+  .sunset-img {
+    width: 300px;
+    height: 300px;
+  }
+  
+  .sunset-img-sm {
+    width: 250px;
+    height: 250px;
+  }
+  
+  .sunset-img-md {
+    width: 280px;
+    height: 280px;
+  }
+  
+  .sun-effect {
+    width: 600px;
+    height: 600px;
+  }
+  
+  .sun-effect-md {
+    width: 500px;
+    height: 500px;
+  }
+  
+  .sun-effect-lg {
+    width: 550px;
+    height: 550px;
+  }
+  
+  .tabuleiro-img {
+    max-width: 450px;
+  }
+  
+  .grafico-img {
+    max-width: 400px;
+  }
+  
+  .lampada-img {
+    max-width: 400px;
+  }
+  
+  .trofeu-img {
+    max-width: 350px;
+  }
+  
+  .logo-img {
+    height: 64px;
+  }
+}

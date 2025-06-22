@@ -1,0 +1,82 @@
+/* Classes de layout e sistema de grid personalizado */
+.w-40 {
+  width: 40%;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.w-75 {
+  width: 75%;
+}
+
+.w-80 {
+  width: 80%;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+/* Margens especiais para o layout */
+.ms-8 {
+  margin-left: 8rem;
+}
+
+.ms-10 {
+  margin-left: 10rem;
+}
+
+/* Elementos específicos de layout */
+.divider-line {
+  height: 1px;
+  background-color: #A38953;
+}
+
+.divider-line-sm {
+  width: 8px;
+  height: 1px;
+}
+
+.divider-line-md {
+  width: 16px;
+  height: 1px;
+}
+
+/* Media queries para layout responsivo */
+@media (min-width: 768px) {
+  .w-md-50 {
+    width: 50%;
+  }
+  
+  .w-md-75 {
+    width: 75%;
+  }
+  
+  .ms-md-8 {
+    margin-left: 8rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .w-lg-40 {
+    width: 40%;
+  }
+  
+  .w-lg-80 {
+    width: 80%;
+  }
+  
+  .ms-lg-10 {
+    margin-left: 10rem;
+  }
+}
+
+/* Importar fonte mais clean */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+section {
+    font-family: 'Inter', sans-serif;
+}
+

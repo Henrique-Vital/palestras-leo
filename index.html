@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palestras Leo Stefan</title>
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+        <script>
+        tailwind.config = {
+            theme: {
+            extend: {
+                colors: {
+                gold: '#FFD700',
+                'dark': '#18181b'
+                },
+                fontFamily: {
+                'futura': ['"Futura PT Medium"', 'sans-serif']
+                }
+            }
+            }
+        }
+    </script>
+    
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/animationss.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/custom-bootstrap.css">
+    <link href="https://fonts.googleapis.com/css2?family=Futura+PT+Medium&display=swap" rel="stylesheet">
+</head>
+<body class="bg-dark text-white relative overflow-x-hidden ">
+
+    <!-- Hero Section -->
+    <section class="relative overflow-visible pt-12 md:pt-32 pb-0 sm:pb-6 md:pb-8 lg:pb-12 xl:pb-16 flex items-center  z-10">
+        <div class="container mx-auto max-w-6xl px-4 md:px-8 lg:px-16 lg:ms-32 xl:ms-60">
+            <div class="flex flex-col lg:flex-row items-center">
+                <!-- Conteúdo à esquerda com animação -->
+                <div class="lg:w-1/2 flex flex-col items-center lg:items-start text-center lg:text-left transition-all duration-1000 animate-slide-in-left">
+                    <div>
+                        <h1 class="text-5xl md:text-6xl font-bold animate-text-glow leading-none whitespace-nowrap">
+                            <span class="text-gold animate-gradient-text">03 PALESTRAS</span>
+                        </h1>
+                        <p class="text-3xl md:text-5xl font-bold animate-fade-in-up delay-300 !leading-[0.9]">
+                            que irão destravar <br> o crescimento do <br>
+                            seu negócio
+                        </p>
+                    </div>
+                    <p class="text-2xl animate-fade-in-up delay-600 max-w-xl leading-tight mt-4">
+                        Leve estas três palestras para a sua empresa, saia da estagnação e saia da média. Cresça com consciência
+                        e dê o próximo passo para dominar o jogo dos negócios.
+                    </p>
+                </div>
+                <!-- Imagem à direita com animação -->
+                <div class="lg:w-1/2 flex justify-center transition-all duration-1000 animate-slide-in-right
+                    sm:scale-100 sm:-ms-0 mt-2 md:mt-0 
+                    scale-[1.10] -ms-0
+                    ">
+                    <img src="images/tabuleiro-1.png" alt="Tabuleiro de xadrez estratégico" class="max-w-full h-auto tabuleiro-img hover:scale-105 transition duration-300 lg:-ms-0 xl:-ms-24 scale-[1.25]">
+                </div>
+                <!-- Imagem SVG à direita, cortada pela metade para o lado esquerdo -->
+                <div class="absolute right-0 top-[50%] -translate-y-1/2 translate-x-[65%] pointer-events-none z-0  ">
+                    <div class="animate-spin-slow">
+                    <img src="images/sun-light-effect-1.svg"
+                        alt="Efeito Sol"
+                        class="w-[590px] max-w-none opacity-80 animate-pulse-glow" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 2 - Leo Stefan -->
+    <section class="pb-12 md:py-16 relative overflow-visible">
+        <div class="container mx-auto px-4 max-w-6xl">
+            <div class="flex flex-col lg:flex-row items-center lg:items-start">
+                <!-- Imagem SVG à esquerda, cortada pela metade para o lado direito -->
+                <div class="absolute left-0 top-[40%] -translate-y-1/2 -translate-x-[60%] pointer-events-none z-0 ">
+                <div class="animate-spin-slow">
+                    <img
+                    src="images/right-shadow-sun.svg"
+                    alt="Efeito Sol"
+                    class="w-[850px] max-w-none opacity-95 animate-pulse-glow"
+                    />
+                </div>
+                </div>
+                <!-- Imagem Leo Stefan -->
+                <div class="w-full md:w-2/5 flex justify-center md:justify-start">
+                    <div class="relative">
+                        <img src="images/leo-stefan.png" 
+                            alt="Leo Stefan" 
+                            class="max-w-full h-auto rounded-lg shadow-2xl hover:scale-105 transition-transform duration-300">
+                    </div>
+                </div>
+                <!-- Conteúdo de texto -->
+                <div class="w-full md:w-3/5 relative px-2 sm:px-8 md:px-0 -mt-20 md:-mt-12 lg:-mt-0 sm:-ms-0 lg:-ms-32">
+                    <div class="mb-8 md:mb-12 ">
+                        <img src="images/nome-leo.png" alt="Leo Stefan" class="logo-img hover:scale-110 transition duration-300 animate-float-gentle mx-auto scale-[1.10] sm:scale-[1.36] h-auto" ">
+                    </div>
+                    <div class="text-2xl leanding-none text-justify">
+                        <p class="text-gray-100 animate-fade-in-up delay-300 ">
+                            Léo Stefan nasceu em uma família humilde em Umuarama, Paraná, e foi criado em Cuiabá, Mato Grosso.
+                        </p>
+                        <p class="text-gray-100 animate-fade-in-up delay-600 py-8 ">
+                            Superou desafios financeiros e emocionais para se tornar um empresário de sucesso. Fundador da Inovally e da 360 News, impacta milhões de pessoas com suas soluções inovadoras.
+                        </p>
+                        <p class="text-gray-100 animate-fade-in-up delay-900">
+                            Hoje, além de gerir seus negócios, também inspira e influencia novos empreendedores a alcançarem o sucesso com estratégia e confiança.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 3 - Os 4Cs -->
+    <section class="relative overflow-visible bg-dark z-10 scroll-animate">
+        <div class="container mx-auto max-w-6xl px-4 md:px-8 lg:px-16">
+            <!-- Divisor PALESTRA 01 - Responsivo -->
+            <div class="flex items-center mb-8 animate-fade-in-up">
+                <div class="flex md:hidden items-center w-full">
+                    <div class="h-1 w-8 bg-gold"></div>
+                    <div class="bg-gold text-dark ps-3 pe-7 py-1 rounded-full font-bold text-xs whitespace-nowrap ">
+                        PALESTRA 01
+                    </div>
+                    <div class="flex-grow h-1 bg-gold delay-300"></div>
+                </div>
+                <div class="hidden md:flex items-center w-full">
+                    <div class="h-1 w-16 bg-gold"></div>
+                    <div class="bg-gold text-dark ps-3 pe-7 py-1 rounded-full font-bold text-sm whitespace-nowrap ">
+                        PALESTRA 01
+                    </div>
+                    <div class="flex-grow h-1 bg-gold delay-300"></div>
+                </div>
+            </div>
+            <div class="flex flex-col md:flex-row items-center gap-8 mb-8">
+                <!-- Imagem com hover effect -->
+                <div class="md:w-1/2 ms-0 md:ms-10 order-2 md:order-1 flex justify-center md:justify-start animate-fade-in-left delay-300 mb-8 md:mb-0">
+                    <img src="images/grafico.png" alt="Gráfico de crescimento" class="max-w-full h-auto grafico-img hover:scale-110 transition duration-300 animate-float-gentle scale-100 md:scale-[1.15]">
+                </div>
+                <!-- Texto com animações escalonadas -->
+                <div class="md:w-1/2 order-1 md:order-2 flex flex-col items-center md:items-start text-center md:text-left -ms-0 md:-ms-40">
+                    <h2 class="text-6xl md:text-6xl lg:text-8xl font-light text-white tracking-wide">
+                        OS 4Cs
+                    </h2>
+                    <h3 class="text-xl md:text-3xl lg:text-4xl text-gold font-medium animate-fade-in-up delay-900">
+                        Comece, Coragem,<br>
+                        Clareza e Caminho
+                    </h3>
+                    <p class="text-lg md:text-2xl lg:text-3xl text-white font-medium italic animate-fade-in-up delay-1200">
+                        Como recomeçar com<br>
+                        maturidade, verdade e direção
+                    </p>
+                </div>
+            </div>
+            <div class="ms-0 md:ms-10">
+                <div class="animate-fade-in-up delay-1500 text-center md:text-left">
+                    <div class="border-2 border-gold rounded-full inline-block px-7 py-0 hover:bg-gold transition duration-300 animate-pulse-border">
+                        <h4 class="text-white font-bold text-base m-0">OBJETIVO</h4>
+                    </div>
+                    <p class="mt-2 text-lg md:text-2xl">
+                        Ensinar como recomeçar de forma consciente, estruturada e madura, usando responsabilidade, coragem,
+                        clareza e planejamento prático.
+                    </p>
+                </div>
+                <div class="animate-fade-in-up delay-1800 text-center md:text-left pt-8">
+                    <div class="border-2 border-gold rounded-full inline-block px-7 py-0 hover:bg-gold transition duration-300 animate-pulse-border">
+                        <h4 class="text-white font-bold text-base m-0">PÚBLICO</h4>
+                    </div>
+                    <ul class="list-none mt-2 text-lg md:text-2xl">
+                        <li class="animate-fade-in-left delay-2100">• Empreendedores iniciantes</li>
+                        <li class="animate-fade-in-left delay-2400">• Profissionais que querem abrir um negócio</li>
+                        <li class="animate-fade-in-left delay-2700">• Pessoas buscando crescimento financeiro e profissional</li>
+                    </ul>
+                    <!-- Imagem SVG à direita, cortada pela metade para o lado esquerdo -->
+                    <div class="absolute right-0 top-[70%] -translate-y-1/2 translate-x-[70%] pointer-events-none z-0">
+                        <div class="animate-spin-slow">
+                        <img src="images/sun-light-effect-1.svg"
+                            alt="Efeito Sol"
+                            class="w-[1050px] max-w-none opacity-40 animate-pulse-glow" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 4 - Disciplina e Dados -->
+    <section class="relative overflow-visible pt-12 md:pt-16 pb-8  z-10 scroll-animate">
+        <div class="container mx-auto max-w-6xl px-4 md:px-8 lg:px-16">
+            <div class="flex items-center mb-8 animate-fade-in-up">
+                <div class="flex md:hidden items-center w-full">
+                    <div class="h-1 w-8 bg-gold"></div>
+                    <div class="bg-gold text-dark ps-3 pe-7 py-1 rounded-full font-bold text-xs whitespace-nowrap ">
+                        PALESTRA 02
+                    </div>
+                    <div class="flex-grow h-1 bg-gold delay-300"></div>
+                </div>
+                <div class="hidden md:flex items-center w-full">
+                    <div class="h-1 w-16 bg-gold"></div>
+                    <div class="bg-gold text-dark ps-3 pe-7 py-1 rounded-full font-bold text-sm whitespace-nowrap ">
+                        PALESTRA 02
+                    </div>
+                    <div class="flex-grow h-1 bg-gold delay-300"></div>
+                </div>
+            </div>
+            <div class="flex flex-col md:flex-row items-center mb-8">
+                <div class="ms-0 md:ms-8 md:w-1/2 flex flex-col items-center md:items-start text-center md:text-left animate-fade-in-left delay-300 mb-8 md:mb-0">
+                    <h2 class="text-6xl md:text-6xl lg:text-8xl font-light animate-text-glow font-futura leading-none">
+                        Disciplina<br>e Dados
+                    </h2>
+                    <h3 class="text-xl md:text-3xl lg:text-3xl text-gold font-medium animate-fade-in-up delay-600">
+                        O Combustível da Inovação<br>
+                        nos Negócios
+                    </h3>
+                    <p class="text-lg md:text-2xl text-white font-medium animate-fade-in-up delay-900">
+                        Como combinar disciplina, cultura<br>
+                        de dados e propósito para acelerar<br>
+                        resultados de forma consistente
+                    </p>
+                </div>
+                <div class="md:w-1/2 flex justify-center animate-fade-in-right delay-600">
+                    <img src="images/lampada.png" alt="Lâmpada inovadora" class="scale-100 md:scale-[1.15] max-w-full h-auto lampada-img hover:scale-110 transition duration-300">
+                </div>
+            </div>
+            <div class="ms-0 md:ms-10 space-y-8">
+                <div class="space-y-4 animate-fade-in-up delay-1200 text-center md:text-left">
+                    <div class="border-2 border-gold rounded-full inline-block px-7 py-0 hover:bg-gold transition duration-300 animate-pulse-border">
+                        <h4 class="text-white font-bold text-base m-0">OBJETIVO</h4>
+                    </div>
+                    <p class="mt-2 text-lg md:text-2xl">
+                        Mostrar como disciplina, cultura de dados e propósito fortalecem negócios, aceleram resultados e evitam
+                        desgastes desnecessários.
+                    </p>
+                </div>
+                <div class="animate-fade-in-up delay-1500 text-center md:text-left">
+                    <div class="border-2 border-gold rounded-full inline-block px-7 py-0 hover:bg-gold transition duration-300 animate-pulse-border">
+                        <h4 class="text-white font-bold text-base m-0">PÚBLICO</h4>
+                    </div>
+                    <ul class="list-none text-lg md:text-2xl mt-2">
+                        <li class="animate-fade-in-left delay-1800">• Empreendedores iniciantes</li>
+                        <li class="animate-fade-in-left delay-2100">• Profissionais que querem abrir um negócio</li>
+                        <li class="animate-fade-in-left delay-2400">• Pessoas buscando crescimento financeiro e profissional</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 5 - Do Zero ao Cem -->
+    <section class="relative pt-4 md:pt-16 pb-16 md:pb-16 bg-dark z-10 scroll-animate">
+        <div class="container mx-auto max-w-6xl px-4 md:px-8 lg:px-16">
+            <div class="flex items-center mb-8 animate-fade-in-up">
+                <div class="flex md:hidden items-center w-full">
+                    <div class="h-1 w-8 bg-gold"></div>
+                    <div class="bg-gold text-dark ps-3 pe-7 py-1 rounded-full font-bold text-xs whitespace-nowrap ">
+                        PALESTRA 03
+                    </div>
+                    <div class="flex-grow h-1 bg-gold delay-300"></div>
+                </div>
+                <div class="hidden md:flex items-center w-full">
+                    <div class="h-1 w-16 bg-gold"></div>
+                    <div class="bg-gold text-dark ps-3 pe-7 py-1 rounded-full font-bold text-sm whitespace-nowrap ">
+                        PALESTRA 03
+                    </div>
+                    <div class="flex-grow h-1 bg-gold delay-300"></div>
+                </div>
+            </div>
+            <div class="flex flex-col md:flex-row items-center mb-8">
+                <div class="md:w-1/2 order-2 md:order-1 flex justify-center animate-fade-in-left delay-300">
+                    <img src="images/trofeu.png" alt="Troféu de conquista" class="scale-100 md:scale-[1.15] max-w-full h-auto trofeu-img hover:scale-110 transition duration-300">
+                </div>
+                <div class="md:w-1/2 order-1 md:order-2 flex flex-col items-center md:items-start text-center md:text-left -ms-0 md:-ms-24">
+                    <h2 class="text-6xl md:text-6xl lg:text-8xl font-light animate-fade-in-up delay-600 animate-text-glow font-futura">
+                        Do Zero<br>ao Cem
+                    </h2>
+                    <h3 class="text-xl md:text-3xl lg:text-3xl text-gold font-medium animate-fade-in-up delay-900">
+                        Lições reais de quem<br>
+                        venceu sem atalhos
+                    </h3>
+                    <p class="text-lg md:text-2xl text-white font-medium font-medium italic animate-fade-in-up delay-1200">
+                        Empreender é ser teimoso<br>
+                        com o sonho e flexível<br>
+                        com o caminho.
+                    </p>
+                </div>
+            </div>
+            <div class="ms-0 md:ms-10">
+                <div class="animate-fade-in-up delay-1500 text-center md:text-left">
+                    <div class="border-2 border-gold rounded-full inline-block px-7 py-0 hover:bg-gold transition duration-300 animate-pulse-border">
+                        <h4 class="text-white font-bold text-base m-0">OBJETIVO</h4>
+                    </div>
+                    <p class="mt-2 text-lg md:text-2xl">
+                        Revelar a verdade sobre a jornada empreendedora, mostrando como resistir, ajustar e prosperar sem
+                        atalhos, usando método e resiliência.
+                    </p>
+                </div>
+                <div class="pt-10 animate-fade-in-up delay-1800 text-center md:text-left">
+                    <div class="border-2 border-gold rounded-full inline-block px-7 py-0 hover:bg-gold transition duration-300 animate-pulse-border">
+                        <h4 class="text-white font-bold text-base m-0">PÚBLICO</h4>
+                    </div>
+                    <ul class="list-none text-lg md:text-2xl mt-2">
+                        <li class="animate-fade-in-left delay-2100">• Empreendedores iniciantes</li>
+                        <li class="animate-fade-in-left delay-2400">• Profissionais que querem abrir um negócio</li>
+                        <li class="animate-fade-in-left delay-2700">• Pessoas buscando crescimento financeiro e profissional</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 6 - CTA -->
+    <section class="bg-gold py-12 md:py-16 relative z-10 scroll-animate">
+        <div class="container mx-auto max-w-6xl px-4 md:px-8 lg:px-16 text-center">
+            <h2 class="text-2xl md:text-5xl font-bold mb-6 text-dark-2 animate-fade-in-up ">
+                SAIA NA FRENTE
+            </h2>
+            <p class="text-lg md:text-3xl mb-6 text-dark-2 mx-auto animate-fade-in-up delay-300 max-w-3xl">
+                Escolha a(s) palestra(s) que você deseja <br> para a sua empresa e receba todas as informações clicando no botão
+                abaixo.
+            </p>
+            <div class="animate-fade-in-up delay-600">
+                <button id="ctaButton" class="btn-dark text-lg px-8 py-2 font-bold rounded-full hover:scale-105 transition duration-300 animate-pulse-button shadow-xl leading-none">
+                    EU QUERO ALAVANCAR<br>O MEU NEGÓCIO
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 7 - Logos -->
+    <section class="py-8 md:py-12 bg-dark relative z-10 scroll-animate">
+        <div class="container mx-auto max-w-6xl px-4 md:px-8 lg:px-16">
+            <div class="flex flex-col md:flex-row items-center justify-center gap-10 md:gap-16">
+                <div class="flex justify-center animate-fade-in-up delay-300 mb-6 md:mb-0">
+                    <img src="images/nome-leo-1.png" alt="Leo Stefan" class="logo-img hover:scale-105 transition duration-300 animate-float-gentle">
+                </div>
+                <div class="flex justify-center animate-fade-in-up delay-600 mb-6 md:mb-0">
+                    <img src="images/empreendemente.png" alt="Empreende Mente" class="logo-img hover:scale-105 transition duration-300 animate-float-gentle delay-500">
+                </div>
+                <div class="flex justify-center animate-fade-in-up delay-900">
+                    <img src="images/lion.png" alt="Lion Group" class="logo-img hover:scale-105 transition duration-300 animate-float-gentle delay-1000">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Custom JS -->
+    <script src="js/animations.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/components.js"></script>
+</body>
+</html>

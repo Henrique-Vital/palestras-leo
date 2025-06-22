@@ -1,0 +1,233 @@
+/* Estilos base para todo o site */
+body {
+  background-color: #060606;
+  color: #ffffff;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  
+  
+}
+
+
+
+/* Classes de utilidade */
+.min-vh-90 {
+  min-height: 90vh;
+}
+
+.whitespace-nowrap {
+  white-space: nowrap;
+}
+
+.z-index-0 {
+  z-index: 0;
+}
+
+.z-index-10 {
+  z-index: 10;
+}
+
+.pointer-events-none {
+  pointer-events: none;
+}
+
+.space-y--1 > * + * {
+  margin-top: -0.25rem;
+}
+
+.space-y--2 > * + * {
+  margin-top: -0.5rem;
+}
+
+.space-y--3 > * + * {
+  margin-top: -0.75rem;
+}
+
+.space-y--4 > * + * {
+  margin-top: -1rem;
+}
+
+.space-y--5 > * + * {
+  margin-top: -1.25rem;
+}
+
+.space-y-6 > * + * {
+  margin-top: -1.5rem;
+}
+
+.space-y--7 > * + * {
+  margin-top: -1.75rem;
+}
+
+.space-y--8 > * + * {
+  margin-top: -2rem;
+}
+
+.space-y-1 > * + * {
+  margin-top: 0.25rem;
+}
+
+.space-y-2 > * + * {
+  margin-top: 0.5rem;
+}
+
+.space-y-3 > * + * {
+  margin-top: 0.75rem;
+}
+
+.space-y-4 > * + * {
+  margin-top: 1rem;
+}
+
+.space-y-5 > * + * {
+  margin-top: 1.25rem;
+}
+
+.space-y-6 > * + * {
+  margin-top: 1.5rem;
+}
+
+.space-y-7 > * + * {
+  margin-top: 1.75rem;
+}
+
+.space-y-8 > * + * {
+  margin-top: 2rem;
+}
+
+.transition-medium {
+  transition: all 0.5s ease;
+}
+
+.duration-1000 {
+  transition-duration: 1s;
+}
+
+.fs-small {
+  font-size: 0.75rem;
+}
+
+.fs-small-md {
+  font-size: 0.875rem;
+}
+
+/* Posicionamentos personalizados */
+.top-custom-10 {
+  top: 2.5rem;
+}
+
+.start-translucent-custom {
+  left: -12rem;
+}
+
+.end-translucent-custom {
+  right: -8rem;
+}
+
+.d-md-absolute {
+  position: relative;
+}
+
+/* Cores personalizadas */
+.text-gold {
+  color: #D7B56D !important;
+}
+
+.bg-gold {
+  background-color: #D7B56D !important;
+}
+
+.bg-dark {
+  background-color: #060606 !important;
+}
+
+.border-gold {
+  border-color: #D7B56D !important;
+}
+
+/* Fontes personalizadas */
+.futura-pt {
+  font-family: 'Futura PT Medium', sans-serif;
+}
+
+/* Media queries para espaçamentos responsivos */
+@media (min-width: 576px) {
+  .space-y-sm-1 > * + * {
+    margin-top: 0.25rem;
+  }
+  
+  .space-y-sm-2 > * + * {
+    margin-top: 0.5rem;
+  }
+  
+  .space-y-sm-3 > * + * {
+    margin-top: 0.75rem;
+  }
+  
+  .space-y-sm-4 > * + * {
+    margin-top: 1rem;
+  }
+  
+  .space-y-sm-5 > * + * {
+    margin-top: 1.25rem;
+  }
+  
+  .space-y-sm-6 > * + * {
+    margin-top: 1.5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .d-md-absolute {
+    position: absolute;
+  }
+  
+  .top-md-0 {
+    top: 0;
+  }
+  
+  .start-md-0 {
+    left: 0;
+  }
+  
+  .h-md-100 {
+    height: 100%;
+  }
+  
+  .space-y-md-1 > * + * {
+    margin-top: 0.25rem;
+  }
+  
+  .space-y-md-2 > * + * {
+    margin-top: 0.5rem;
+  }
+  
+  .space-y-md-3 > * + * {
+    margin-top: 0.75rem;
+  }
+  
+  .space-y-md-4 > * + * {
+    margin-top: 1rem;
+  }
+  
+  .space-y-md-5 > * + * {
+    margin-top: 1.25rem;
+  }
+  
+  .space-y-md-6 > * + * {
+    margin-top: 1.5rem;
+  }
+  
+  .space-y-md-7 > * + * {
+    margin-top: 1.75rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .space-y-lg-6 > * + * {
+    margin-top: 1.5rem;
+  }
+  
+  .space-y-lg-8 > * + * {
+    margin-top: 2rem;
+  }
+}
