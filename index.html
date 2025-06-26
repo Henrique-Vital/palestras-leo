@@ -31,11 +31,11 @@
     <link rel="stylesheet" href="css/custom-bootstrap.css">
     <link href="https://fonts.googleapis.com/css2?family=Futura+PT+Medium&display=swap" rel="stylesheet">
 </head>
-<body class="bg-dark text-white relative overflow-x-hidden ">
+<body class="bg-dark text-white relative  ">
 
     <!-- Hero Section -->
-    <section class="relative overflow-visible pt-12 md:pt-32 pb-0 sm:pb-6 md:pb-8 lg:pb-12 xl:pb-16 flex items-center  z-10">
-        <div class="container mx-auto max-w-6xl px-4 md:px-8 lg:px-16 lg:ms-32 xl:ms-60">
+    <section class="relative overflow-hidden pt-12 md:pt-32 pb-0 sm:pb-6 md:pb-8 lg:pb-12 xl:pb-16 flex items-center  z-10">
+        <div class="container mx-auto max-w-6xl pr-4 md:pr-8 lg:pr-16 lg:pl-48 ">
             <div class="flex flex-col lg:flex-row items-center">
                 <!-- Conteúdo à esquerda com animação -->
                 <div class="lg:w-1/2 flex flex-col items-center lg:items-start text-center lg:text-left transition-all duration-1000 animate-slide-in-left">
@@ -116,8 +116,8 @@
     </section>
 
     <!-- Section 3 - Os 4Cs -->
-    <section class="relative overflow-visible bg-dark z-10 scroll-animate">
-        <div class="container mx-auto max-w-6xl px-4 md:px-8 lg:px-16">
+    <section class="relative overflow-hidden bg-dark z-10 scroll-animate">
+        <div class="container relative mx-auto max-w-6xl px-4 md:px-8 lg:px-16">
             <!-- Divisor PALESTRA 01 - Responsivo -->
             <div class="flex items-center mb-8 animate-fade-in-up">
                 <div class="flex md:hidden items-center w-full">
@@ -174,18 +174,37 @@
                         <li class="animate-fade-in-left delay-2400">• Profissionais que querem abrir um negócio</li>
                         <li class="animate-fade-in-left delay-2700">• Pessoas buscando crescimento financeiro e profissional</li>
                     </ul>
-                    <!-- Imagem SVG à direita, cortada pela metade para o lado esquerdo -->
+                    <!-- Imagem SVG à direita, cortada pela metade para o lado esquerdo 
                     <div class="absolute right-0 top-[70%] -translate-y-1/2 translate-x-[70%] pointer-events-none z-0">
                         <div class="animate-spin-slow">
                         <img src="images/sun-light-effect-1.svg"
                             alt="Efeito Sol"
                             class="w-[1050px] max-w-none opacity-40 animate-pulse-glow" />
                         </div>
-                    </div>
+                    </div>-->
                 </div>
             </div>
         </div>
     </section>
+
+    <!-- SVG LUZ GLOBAL — POSICIONADO NO BODY 
+    <div 
+    class="fixed left-[80%] z-20 pointer-events-none w-[1050px] max-w-[40vw] opacity-100"
+    style="top: 140px; transform: translateX(-0%);"
+    >
+    <img src="images/sun-light-effect-1.svg" class="w-full h-auto animate-pulse-glow" alt="Efeito Sol"/>
+    </div>-->
+
+    <!-- SVG LUZ GLOBAL — POSICIONADO NO BODY -->
+    <!-- SVG LUZ GLOBAL — POSICIONADO ABSOLUTAMENTE DENTRO DA SEÇÃO -->
+    <div 
+        class="absolute z-20 pointer-events-none opacity-35 top-[1400px] md:top-[1400px] lg:top-[1000px]  left-full translate-x-[-40%] w-[1050px]">
+        <img 
+        src="images/sun-light-effect-1.svg" 
+        class="w-[1050px] h-auto animate-pulse-glow" 
+        alt="Efeito Sol"
+        />
+    </div>
 
     <!-- Section 4 - Disciplina e Dados -->
     <section class="relative overflow-visible pt-12 md:pt-16 pb-8  z-10 scroll-animate">
